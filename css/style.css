@@ -1,0 +1,70 @@
+body{
+    background-color: cadetblue;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.div-calculadora{
+    background-color:rgba(211, 211, 211, 0.927);
+    display: grid;
+    border-radius: 10px;
+    width: 370px;
+    height: 532px;
+    border:1px solid black;
+    box-shadow: 10px 10px 0px 3px rgba(0, 0, 0, 0.2);
+}
+.calculadora {
+    background-color:rgba(211, 211, 211, 0.792);
+    display: grid;
+    border-radius: 10px;
+    border:1px solid black;
+    margin: auto;
+    width: 350px;
+}
+.div-btn{
+    background-color: white;
+    display: grid;
+    grid-template-columns:repeat(4, 80px);
+    grid-template-rows: repeat(5, 70px);
+    padding: 15px;
+    border-radius: 30px 30px 10px 10px;
+    box-shadow: 1px 2px 0px 3px rgba(0, 0, 0, 0.2);
+}
+.display{
+    background-color: azure;
+    grid-column: 1 / -1;
+    display: flex;
+    flex-direction: column;
+    margin: 35px 15px 20px;
+    border-radius: 8px;
+    align-items: flex-end;
+    text-align: right;
+    justify-content: space-between;
+    word-break: break-all;
+    border: 1px solid black;
+}
+.display div{
+    margin: 10px;
+    height: 20px;
+}
+.two-colum{
+    grid-column: span 2;
+    background-color: rgba(128, 128, 128, 0.289);
+}
+button{
+    border: 1px solid black;
+    border-radius: 25px;
+    margin: 7px;
+    box-shadow: 5px 5px 10px -3px rgba(0, 0, 0, 0.251);
+}
+button:hover{
+    cursor: pointer;
+}
+button:active{
+    background-color: rgba(0, 0, 0, 0.251);
+}
+
